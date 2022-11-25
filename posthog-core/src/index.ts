@@ -554,11 +554,20 @@ export abstract class PostHogCore {
       return
     }
     const message = {
-      ..._message,
+      ..._message, //event, distinct_id, properties
       type: type,
       library: this.getLibraryId(),
       library_version: this.getLibraryVersion(),
       timestamp: _message.timestamp ? _message.timestamp : currentISOTime(),
+    }
+
+    if (type === "capture") {
+      console.log("Previous timestamp - ", message.timestamp);
+
+      if (_message.properties && _message.properties.timestamp)
+        message.timestamp = _message.properties.timestamp;
+
+      console.log("New timestamp - ", message.timestamp);
     }
 
     if (message.distinctId) {
