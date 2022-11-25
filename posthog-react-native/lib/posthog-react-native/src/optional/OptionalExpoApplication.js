@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:true});exports.OptionalExpoApplication=void 0;var OptionalExpoApplication=undefined;exports.OptionalExpoApplication=OptionalExpoApplication;try{exports.OptionalExpoApplication=OptionalExpoApplication=require('expo-application');}catch(e){}

@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:true});exports.OptionalReactNativeDeviceInfo=void 0;var OptionalReactNativeDeviceInfo=undefined;exports.OptionalReactNativeDeviceInfo=OptionalReactNativeDeviceInfo;try{exports.OptionalReactNativeDeviceInfo=OptionalReactNativeDeviceInfo=require('react-native-device-info');}catch(e){}

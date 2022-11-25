@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:true});exports.OptionalExpoDevice=void 0;var OptionalExpoDevice=undefined;exports.OptionalExpoDevice=OptionalExpoDevice;try{exports.OptionalExpoDevice=OptionalExpoDevice=require('expo-device');}catch(e){}

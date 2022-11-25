@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:true});exports.OptionalExpoLocalization=void 0;var OptionalExpoLocalization=undefined;exports.OptionalExpoLocalization=OptionalExpoLocalization;try{exports.OptionalExpoLocalization=OptionalExpoLocalization=require('expo-localization');}catch(e){}
